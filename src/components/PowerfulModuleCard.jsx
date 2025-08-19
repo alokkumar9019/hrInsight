@@ -63,42 +63,6 @@ export default function PowerfulModuleCard({ icon, title, description, color, li
         <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">{title}</h3>
         <p className="text-gray-600 dark:text-gray-400 text-base leading-relaxed">{description}</p>
       </div>
-
-      {/* Hover CTA Button */}
-      <button
-        className="
-          mt-auto
-          opacity-0
-          group-hover:opacity-100
-          transition-opacity duration-300
-          self-start
-          bg-gradient-to-r from-[#2aaf50] to-[#2aaf95]
-          hover:from-[#2c3e50] hover:to-[#2aaf95]
-          text-white
-          font-semibold
-          px-5 py-2.5
-          rounded-full
-          shadow-lg
-          flex items-center gap-2
-          select-none
-        "
-        aria-label={`Click to see details about ${title}`}
-      >
-        See Details
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="w-4 h-4"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          strokeWidth={2}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          aria-hidden="true"
-        >
-          <path d="M5 12h14M12 5l7 7-7 7" />
-        </svg>
-      </button>
     </div>
   );
 }

@@ -19,7 +19,7 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const navItems = [
-    { label: "Modules", id: "modules" },
+    { label: "Features", id: "features" },
     { label: "Why PREDDIX", href: "/why-preddix" },
     { label: "Resources" },
     { label: "Pricing" },
